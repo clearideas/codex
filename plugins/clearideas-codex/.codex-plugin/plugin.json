@@ -1,0 +1,45 @@
+{
+  "name": "clearideas-codex",
+  "version": "0.1.0",
+  "description": "Bring Clear Ideas into Codex for governed knowledge, cited answers, and agent authoring.",
+  "author": {
+    "name": "Clear Ideas Incorporated",
+    "email": "support@clearideas.com",
+    "url": "https://clearideas.com/"
+  },
+  "homepage": "https://docs.clearideas.com/",
+  "repository": "https://github.com/clearideas/codex",
+  "license": "UNLICENSED",
+  "keywords": [
+    "clearideas",
+    "mcp",
+    "knowledge",
+    "workflows",
+    "governance"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Clear Ideas",
+    "shortDescription": "Secure knowledge, cited answers, and agent authoring",
+    "longDescription": "Use Clear Ideas in Codex to search approved content, retrieve cited answers from governed knowledge, and create, edit, validate, run, and schedule repeatable agents backed by your Clear Ideas environment.",
+    "developerName": "Clear Ideas Incorporated",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://clearideas.com/",
+    "privacyPolicyURL": "https://clearideas.com/privacy",
+    "termsOfServiceURL": "https://clearideas.com/terms-of-service",
+    "defaultPrompt": [
+      "Search Clear Ideas and answer with citations",
+      "Create or edit a Clear Ideas agent",
+      "Run a Clear Ideas agent for this task",
+      "Summarize what Clear Ideas knows about this topic"
+    ],
+    "brandColor": "#101419",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

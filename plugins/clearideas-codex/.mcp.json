@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clearideas": {
+      "type": "http",
+      "url": "https://api.clearideas.com/mcp"
+    }
+  }
+}

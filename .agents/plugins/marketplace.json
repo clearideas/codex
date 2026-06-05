@@ -1,0 +1,20 @@
+{
+  "name": "clearideas",
+  "interface": {
+    "displayName": "Clear Ideas"
+  },
+  "plugins": [
+    {
+      "name": "clearideas-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/clearideas-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
