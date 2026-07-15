@@ -16,10 +16,11 @@ This repository is the Codex plugin marketplace for Clear Ideas. It makes Clear 
 
 ## Install
 
-Add the marketplace:
+Add the marketplace and install the official plugin:
 
 ```sh
 codex plugin marketplace add clearideas/codex
+codex plugin add clearideas-codex@clearideas
 ```
 
 Open the plugin directory:
@@ -28,7 +29,7 @@ Open the plugin directory:
 /plugins
 ```
 
-Select the `clearideas` marketplace and install **Clear Ideas**.
+Select the `clearideas` marketplace and install **Clear Ideas** if you did not install it from the command line.
 
 After installation, start a new Codex thread and authenticate the `clearideas` MCP server when prompted.
 
@@ -64,6 +65,17 @@ https://api.clearideas.com/mcp
 ```
 
 Authentication is handled through Clear Ideas OAuth and Codex MCP discovery.
+
+## Update
+
+Refresh the GitHub marketplace snapshot and reinstall the plugin:
+
+```sh
+codex plugin marketplace upgrade clearideas
+codex plugin add clearideas-codex@clearideas
+```
+
+Start a new Codex thread after updating so changed skills and MCP tools are loaded.
 
 For releases, keep both versions in sync:
 

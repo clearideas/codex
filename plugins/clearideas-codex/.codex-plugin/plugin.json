@@ -1,6 +1,6 @@
 {
   "name": "clearideas-codex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bring Clear Ideas into Codex for governed knowledge, cited answers, and agent authoring.",
   "author": {
     "name": "Clear Ideas Incorporated",
@@ -34,8 +34,7 @@
     "defaultPrompt": [
       "Search Clear Ideas and answer with citations",
       "Create or edit a Clear Ideas agent",
-      "Run a Clear Ideas agent for this task",
-      "Summarize what Clear Ideas knows about this topic"
+      "Run a Clear Ideas agent for this task"
     ],
     "brandColor": "#101419",
     "composerIcon": "./assets/icon.png",

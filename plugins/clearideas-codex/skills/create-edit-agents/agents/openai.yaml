@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create/Edit Agents"
+  short_description: "Author, validate, save, and test Clear Ideas agents"
+  default_prompt: "Create or edit a Clear Ideas agent."
+policy:
+  allow_implicit_invocation: true
