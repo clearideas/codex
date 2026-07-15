@@ -24,6 +24,7 @@ Add the marketplace and install the plugin:
 
 ```sh
 codex plugin marketplace add clearideas/codex
+codex plugin add clearideas-codex@clearideas
 ```
 
 Then open the plugin directory:
@@ -32,7 +33,18 @@ Then open the plugin directory:
 /plugins
 ```
 
-Select the `clearideas` marketplace and install **Clear Ideas**.
+Select the `clearideas` marketplace and install **Clear Ideas** if you did not install it from the command line.
+
+## Update
+
+Refresh the GitHub marketplace snapshot and reinstall the plugin:
+
+```sh
+codex plugin marketplace upgrade clearideas
+codex plugin add clearideas-codex@clearideas
+```
+
+Start a new Codex thread after updating so changed skills and MCP tools are loaded.
 
 ## Authentication
 

@@ -32,4 +32,7 @@ To refresh available marketplace files after a Clear Ideas plugin update, run:
 
 ```sh
 codex plugin marketplace upgrade clearideas
+codex plugin add clearideas-codex@clearideas
 ```
+
+Start a new Codex thread after reinstalling so changed skills and MCP tools are loaded.
